@@ -1,0 +1,115 @@
+@media (max-width:600px) {
+
+.a .bi .itbd::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background-color: #1e1e1e;
+	margin-top: 45px;
+}
+
+.index {
+	display: flex;
+	height: 120px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+}
+
+.index img {
+	height: 120px;
+	width: 90px;
+	filter: brightness(80%);
+}
+
+.condition {
+width: 100px;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.reprint {
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+a {
+color: #666;
+}
+
+.a * {
+color: #aaa;
+}
+
+.a {
+width: 80%;
+border-right: 1px solid #aaa;
+}
+
+.a>div {
+position: relative;
+}
+
+.a>div>.bi {
+height: 120px;
+position: absolute;
+width: 160px;
+left: 95px;
+top: 0px;
+}
+
+#he-plugin-simple {
+z-index: 1;
+}
+
+.index div{
+display: inline-block;
+}
+
+.itbd {
+height: 100px;
+overflow: scroll;
+}
+
+.bit * {
+font-size: 10px;
+position: absolute;
+top: 0;
+}
+
+.author {
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+.down {
+position: absolute;
+right: 0;
+top: 0;
+color: #aaa;
+}
+
+.reprint {
+position: absolute;
+bottom: 0;
+}
+
+.x {
+width: 0;
+}
+
+.y {
+height: 0;
+}
+
+.window {
+width: 100%;
+height: 100%;
+background-color: #1e1e1e;
+}
+
+}
