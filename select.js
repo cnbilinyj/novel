@@ -1,5 +1,5 @@
 function select(tendocs,kdocs){
-var se=confirm("ÇëÑ¡ÔñÄúÒªÌø×ªµ½µÄÁ´½Ó\nµ±Äúµã»÷È·ÈÏºó£¬½«Ìø×ªµ½½ðÉ½ÎÄµµ£¨WPS Office£©´¦\nµ±Äúµã»÷È¡ÏûÊ±£¬½«Ìø×ªµ½ÌÚÑ¶ÎÄµµ´¦");
+var se=confirm("è¯·é€‰æ‹©æ‚¨è¦è·³è½¬åˆ°çš„é“¾æŽ¥\nå½“æ‚¨ç‚¹å‡»ç¡®è®¤åŽï¼Œå°†è·³è½¬åˆ°é‡‘å±±æ–‡æ¡£ï¼ˆWPS Officeï¼‰å¤„\nå½“æ‚¨ç‚¹å‡»å–æ¶ˆæ—¶ï¼Œå°†è·³è½¬åˆ°è…¾è®¯æ–‡æ¡£å¤„");
 if (se==true)
 	{
 	window.open(kdocs,"newwindow");
@@ -9,7 +9,7 @@ if (se==true)
 }
 
 function down(blank,ct){
-var down=confirm("ÇëÑ¡ÔñÄúÒªÌø×ªµ½µÄÁ´½Ó\nµ±Äúµã»÷È·ÈÏºó£¬½«Ìø×ªµ½¿ÕÒíÔÆ´¢´æ·ÖÏíÁ´½Ó´¦\nµ±Äúµã»÷È¡ÏûÊ±£¬½«Ìø×ªµ½³ÇÍ¨ÍøÅÌ·ÖÏíÁ´½Ó´¦\n³ÇÍ¨ÍøÅÌµÄÍ¨ÓÃ·ÃÎÊÃÜÂë£ºhhhnyj");
+var down=confirm("è¯·é€‰æ‹©æ‚¨è¦è·³è½¬åˆ°çš„é“¾æŽ¥\nå½“æ‚¨ç‚¹å‡»ç¡®è®¤åŽï¼Œå°†è·³è½¬åˆ°ç©ºç¿¼äº‘å‚¨å­˜åˆ†äº«é“¾æŽ¥å¤„\nå½“æ‚¨ç‚¹å‡»å–æ¶ˆæ—¶ï¼Œå°†è·³è½¬åˆ°åŸŽé€šç½‘ç›˜åˆ†äº«é“¾æŽ¥å¤„\nåŸŽé€šç½‘ç›˜çš„é€šç”¨è®¿é—®å¯†ç ï¼šhhhnyj");
 if (down==true){
 window.open(blank,"newwindow");
 	}else{
