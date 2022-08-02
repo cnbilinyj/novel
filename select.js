@@ -17,9 +17,9 @@ window.open(ct,"newwindow");
 }
 }
 
-function characterSet(novelN){
-var cs = confirm("您的浏览器是否支持utf-8编码？");
-if(cs == true){
+function chs1(novelN){
+var cs1=confirm("您的浏览器是否支持utf-8编码？");
+if(cs1==true){
 window.open("./" + novelN + "/" + novelN + "0","newwindow");
 }else{
 window.open("./" + novelN + "/" + novelN + "1","newwindow");
