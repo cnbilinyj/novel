@@ -18,7 +18,7 @@ window.open(ct,"newwindow");
 }
 
 function chs1(novelN){
-var cs1=confirm("您的浏览器是否支持utf-8编码？");
+var cs1=confirm("您的浏览器是否支持UTF-8编码，但不支持GBK编码？");
 if(cs1==true){
 window.open("./" + novelN + "/" + novelN + "0.txt","newwindow");
 }else{
